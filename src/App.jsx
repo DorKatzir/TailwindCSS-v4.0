@@ -9,6 +9,7 @@ const App = () => {
       <button className="bg-amber border-4 text-alabaster text-2xl font-bold mt-12 rounded px-6 py-4">
         Click here!
       </button>
+      <input type="text" placeholder='Enter your name' className='bg-white text-lg text-amber border-2 p-4 rounded ml-4 outline-0' />
     </div>
   )
 }
