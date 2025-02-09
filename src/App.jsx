@@ -2,14 +2,13 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='bg-deepblue p-12 container'>
-      <h1 className='text-5xl font-bold text-white'>
-        This is a React app with Tailwind CSS v4.0
-      </h1>
-      <button className="bg-amber border-4 text-alabaster text-2xl font-bold mt-12 rounded px-6 py-4">
-        Click here!
-      </button>
-      <input type="text" placeholder='Enter your name' className='bg-white text-lg text-amber border-2 p-4 rounded ml-4 outline-0' />
+    <div className='@container border p-4'>
+      <div className="grid grid-cols-1 @sm:grid-cols-2 @lg:grid-cols-4 gap-4">
+        <div className='bg-blue-500 h-40'></div>
+        <div className='bg-green-500 h-40'></div>
+        <div className='bg-red-500 h-40'></div>
+        <div className='bg-yellow-500 h-40'></div>
+      </div>
     </div>
   )
 }
