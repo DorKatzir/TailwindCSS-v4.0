@@ -17,3 +17,9 @@
 .text-alabaster {
   color: var(--alabaster-500);
 }
+
+@utility container {
+    padding: 20px;
+    maxwidth: 1280px;
+    margin: auto;
+}
