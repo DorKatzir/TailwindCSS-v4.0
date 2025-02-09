@@ -6,7 +6,7 @@ const App = () => {
       <h1 className='text-5xl font-bold text-white'>
         This is a React app with Tailwind CSS v4.0
       </h1>
-      <button className="bg-amber text-alabaster text-2xl font-bold mt-12 rounded px-6 py-4">
+      <button className="bg-amber border-4 text-alabaster text-2xl font-bold mt-12 rounded px-6 py-4">
         Click here!
       </button>
     </div>
