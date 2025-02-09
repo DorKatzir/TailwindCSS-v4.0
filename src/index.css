@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+@theme {
+  --deepblue-500: #203047;
+}
+
+.bg-deepblue {
+  background-color: var(--deepblue-500);
+}
