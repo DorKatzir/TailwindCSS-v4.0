@@ -27,3 +27,5 @@
     maxwidth: 1280px;
     margin: auto;
 }
+
+@source './node_modules/some-third-party-lib/**/*.css';
